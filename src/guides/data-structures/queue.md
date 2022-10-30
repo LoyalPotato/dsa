@@ -11,6 +11,20 @@ It is composed by nodes with a value and pointers to the next node. There is a `
 
 Since it is a list you may be wondering if insertion or deletion at any node is possible, but in a Queue, insertion is done always at the last node (back/tail) and the removal, like mentioned before, is done at the first node.
 
+Here's a simple visual representation of a Queue:
+
+```js
+/*
+  /===========/      /===========/    /===========/
+ /     5     / <-- /     8     / <-- /     0     /
+/===========/    /===========/      /===========/
+
+  (head)                              (tail)
+
+Remove first (head) insert at the end (tail)
+*/
+```
+
 ## Operations
 
 In a Queue there are three main operations that can be done:
