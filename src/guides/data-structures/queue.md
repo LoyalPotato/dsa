@@ -1,8 +1,5 @@
-# Data Structures
 
-This is a list of all the data structures that are present in this repo.
-
-## Queue
+# Queue
 
 <!-- TODO: Don't forget to add runtime of each operation -->
 
@@ -14,7 +11,7 @@ It is composed by nodes with a value and pointers to the next node. There is a `
 
 Since it is a list you may be wondering if insertion or deletion at any node is possible, but in a Queue, insertion is done always at the last node (back/tail) and the removal, like mentioned before, is done at the first node.
 
-### Operations
+## Operations
 
 In a Queue there are three main operations that can be done:
 
@@ -22,23 +19,23 @@ In a Queue there are three main operations that can be done:
 - *deque*
 - *peek*
 
-#### Enqueue
+### Enqueue
 
 This method is used to add items to the queue. If you're doing the maintence of the items, then don't forget to handle the `length`, `head` and `tail` because these may change depending on when you are doing this operation.
 
-#### Deque
+### Deque
 
 Deque is the method used for removing the first node from the queue.
 
 Similar to [enqueue](#enqueue), if you're doing the management, don't forget to reduce the `length` and handle the `head` and `tail` in case of removing the last node in the queue.
 
-#### Peek
+### Peek
 
 Peek is the simplest of the lot and it's just a method to get the first node's value, or lack thereof.
 
 This does not mutate the state of the queue.
 
-### Uses
+## Uses
 
 There are some cases in which you need to use a data structure that keeps an order of insertion and removal.
 
