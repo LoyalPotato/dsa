@@ -14,5 +14,5 @@ Also if you have any implementation that is better in anyway than what is alread
 
 Here are some links that you might find helpful:
 
-[Swift Algorithm Club](https://github.com/kodecocodes/swift-algorithm-club) - kodecocodes
-[The Last Algorithms Course You'll Need](https://frontendmasters.com/courses/algorithms/) - ThePrimeagen & FrontendMasters
+- [Swift Algorithm Club](https://github.com/kodecocodes/swift-algorithm-club) - kodecocodes
+- [The Last Algorithms Course You'll Need](https://frontendmasters.com/courses/algorithms/) - ThePrimeagen & FrontendMasters
