@@ -5,7 +5,7 @@
 
 A Queue is a FIFO, or first in first out, structure. This means that the first node to enter the list is the first node to be removed.
 
-If you've know what a [Stack](./Stack.md) is then you can picture a Queue to be the same, but instead of the most recent item being removed, it is the first.
+If you know what a [Stack](./Stack.md) is then you can picture a Queue to be the same, but instead of the most recent item being removed, it's the first.
 
 It is composed by nodes with a value and pointers to the next node. There is a `head` pointer, which denotes the first node in the queue and a `tail` that denotes exactly what it suggests, the last node of the list.
 
