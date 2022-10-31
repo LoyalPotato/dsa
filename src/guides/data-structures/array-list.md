@@ -37,3 +37,7 @@ In arrays you obtain the element you want by using the idx (although in your imp
 ### Remove At
 
 Removing is similar to insertion in which we need to shift the whole array to the left to fill the index that was removed. Also like insertion, depending on where the removal is done, can have a runtime of **O(1)** when removing the last element of the array, or **O(n)** as a worst case, if removing the first item from the array.
+
+## Resources
+
+- [Array Lists - Data Structures and Algorithms - DaFluffyPotato](https://www.youtube.com/watch?v=g6ZrsZ4W5iw)
