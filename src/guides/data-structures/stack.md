@@ -1,5 +1,7 @@
 # Stack
 
+<!-- TODO: Search some cases in which you could/should use a queue. -->
+
 The Stack is a LIFO (last in first out) data structure. This means that whenever we are inserting into a Stack that we will always insert at the end.
 
 You may be thinking that this seems a lot like a [Queue](queue) and yes, it has similar behaviors/operations.
