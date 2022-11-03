@@ -1,8 +1,10 @@
 # Binary Search
 
-Binary search is one of the simplest algorithms you can find. It's premise is simple:
+Binary search is one of the simplest algorithms you can find.
 
-Given an ordered array:
+## How it works
+
+It's premise is simple. Given an ordered array:
 
 - First, define a loop and the condition in which it will break/stop. This is simply whenever `hi` is less than `lo`;
 - Get the mid point value;
