@@ -18,6 +18,7 @@ export default class Stack<T> {
         };
         if (!this.tail) {
             this.tail = node;
+            return;
         }
         node.next = this.tail;
         this.tail = node;
