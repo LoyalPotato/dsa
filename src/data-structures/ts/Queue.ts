@@ -21,6 +21,7 @@ export default class Queue<T> {
     }
     if (this.length === 1) {
       this.tail = this.head = node;
+      return;
     }
 
     const tail = this.tail as Node<T>;
