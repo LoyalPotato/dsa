@@ -4,7 +4,7 @@
 
 The Stack is a LIFO (last in first out) data structure. This means that whenever we are inserting into a Stack that we will always insert at the end.
 
-You may be thinking that this seems a lot like a [Queue](queue) and yes, it has similar behaviors/operations.
+You may be thinking that this seems a lot like a [Queue](./queue.md) and yes, it has similar behaviors/operations.
 In the Stack since we are always inserting or removing from the end, like we would in a Queue, we have no need of a pointer to the start (head) of the Stack. This is why we only need a `tail` pointer for every operation.
 
 Below you'll find a visual representation of what a Stack looks like:
