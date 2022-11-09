@@ -1,24 +1,21 @@
-public class Node<T> {
-  T val;
-  Node<T> next;
-}
+package datastructures.java;
 
 public class Queue<T> {
 
   int length;
-  Node<T> tail;
-  Node<T> head;
+  QNode<T> tail;
+  QNode<T> head;
 
   public Queue() {
-    this.head = head;
-    this.tail = tail;
+    this.head = null;
+    this.tail = null;
     this.length = 0;
   }
 
   public void Enqueue(T item) {
     if (item == null) return;
     this.length++;
-    Node<T> newNode = new Node<T>();
+    QNode<T> newNode = new QNode<T>();
     newNode.val = item;
     if (this.length == 1) {
       this.tail = this.head = newNode;
@@ -29,10 +26,10 @@ public class Queue<T> {
   }
 
   public T Deque() {
-    if (this.length == 0) return;
+    if (this.length == 0) return null;
     this.length--;
 
-    Node<T> prevHead = this.head;
+    QNode<T> prevHead = this.head;
     prevHead.next = null;
 
     this.head = this.head.next;
@@ -45,6 +42,7 @@ public class Queue<T> {
   // peek
   public T Peek() {
     if(this.length == 0) return null;
+    return this.head.val;
   }
 
 }

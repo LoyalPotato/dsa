@@ -1,21 +1,8 @@
-public class Node<T> {
-  public T val;
-  public Node<T> next;
-
-  public Node(T val, Node<T> next) {
-    this.val = val;
-    this.next = next;
-  }
-  public Node() {
-    this.val = null;
-    this.next = null;
-  }
-
-}
+package datastructures.java;
 
 public class Stack<T> {
   public int length; 
-  private Node<T> tail;
+  private SNode<T> tail;
 
   public Stack() {
     this.length = 0;
@@ -24,7 +11,7 @@ public class Stack<T> {
 
   public void Push(T item) {
     this.length++;
-    Node<T> newNode = new Node<>();
+    SNode<T> newNode = new SNode<>();
     newNode.val = item;
 
     if (this.length == 1) {
@@ -41,7 +28,7 @@ public class Stack<T> {
 
     this.length--;
 
-    Node<T> prevTail = this.tail;
+    SNode<T> prevTail = this.tail;
 
     if (this.length == 0) {
       this.tail = null;
